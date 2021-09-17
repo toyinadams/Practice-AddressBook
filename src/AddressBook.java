@@ -3,7 +3,9 @@ import java.util.ArrayList;
 public class AddressBook {
     private ArrayList<BuddyInfo> buddyCollection;
 
-    //public AddressBook() {}
+    public AddressBook() {
+        buddyCollection = new ArrayList<>();
+    }
 
     public void addBuddy(BuddyInfo buddyInfo) {
         buddyCollection.add(buddyInfo);
