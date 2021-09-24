@@ -21,6 +21,7 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
+        // Making changes on GitHub
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", 613);
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
